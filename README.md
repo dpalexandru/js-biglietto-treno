@@ -19,3 +19,19 @@ per controllare che la vostra logica sui prezzi funzioni correttamente, provate 
 
 100km, 10 anni => prezzo corretto: €16.80
 100km, 70 anni => prezzo corretto: €12.60
+
+### Cosa ho imparato
+
+Ho imparato a usare prompt() per chiedere dei dati all’utente e ho scoperto che il valore che ricevo è sempre una stringa.
+
+Per lavorare con i numeri, ho imparato a usare parseInt() per trasformare queste stringhe in numeri interi, così da poter fare i calcoli.
+
+Ho creato delle costanti per i valori fissi come il prezzo al chilometro e gli sconti, e una variabile per salvare il prezzo finale del viaggio.
+
+Con le strutture if, else if ed else sono riuscito a controllare l’età del passeggero e applicare uno sconto se era minorenne o pensionato.
+
+Infine, ho usato .toFixed(2) per formattare il risultato finale e mostrare sempre due decimali, anche quando il numero è tondo.
+
+### Consegna
+
+01/07/2025
