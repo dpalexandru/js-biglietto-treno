@@ -14,12 +14,13 @@ let prezzoViaggio = 0;
 if (eta < 18) {
   prezzoViaggio = km * prezzoAlKm
   prezzoViaggio = prezzoViaggio - (prezzoViaggio * scontoMinorenni)
-} else if (eta > 65) {
+} else if (eta >= 65) {
   prezzoViaggio = km * prezzoAlKm
   prezzoViaggio = prezzoViaggio - (prezzoViaggio * scontoPensionati)
 }
 else{
-
+  prezzoViaggio = km * prezzoAlKm
 }
 
+//stambpo il prezzo del biglietto 
 console.log (`Il tuo biglietto costa ${prezzoViaggio}€`)
