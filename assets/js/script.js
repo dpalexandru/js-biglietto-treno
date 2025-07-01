@@ -23,4 +23,6 @@ else{
 }
 
 //stambpo il prezzo del biglietto 
-console.log (`Il tuo biglietto costa ${prezzoViaggio}€`)
+console.log("=============================")
+console.log (`Il tuo biglietto costa ${prezzoViaggio.toFixed(2)}€`)
+console.log("=============================")
