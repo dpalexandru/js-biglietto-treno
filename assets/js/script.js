@@ -3,9 +3,19 @@ const km = parseInt(prompt("Quanti chilometri deve percorrere il passeggero?"));
 const eta = parseInt(prompt("Quanti anni ha il passeggero?"));
 
 
-//Costanti calcolo viaggio
+//Inizializzo costanti calcolo viaggio
 const prezzoAlKm = 0.21;
 const scontoMinorenni = 0.20;
 const scontoPensionati = 0.40;
+let prezzoViaggio = 0;
 
 //calcolo prezzo viaggio 
+
+if (eta < 18) {
+  prezzoViaggio = km * prezzoAlKm
+  prezzoViaggio = prezzoViaggio - (prezzoViaggio * scontoMinorenni)
+} else {
+  
+}
+
+console.log (`Il tuo biglietto costa ${prezzoViaggio}€`)
